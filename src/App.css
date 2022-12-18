@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+.bg-gradient {
+    background: linear-gradient(86deg, rgba(49,211,92,1) 17%, rgba(43,183,218,1) 100%);
+}
+
+.container {
+    width: 90%;
+}
+
+
+header {
+    background-image: url(./assets/bg-intro-desktop.svg);
+    background-position: 45rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    header{
+      background-image: url(./assets/bg-intro-mobile.svg);
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: contain;
+    }
+   }
