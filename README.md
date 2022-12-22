@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page solution
 
-## Live: https://easybank-landing-page93.netlify.app/
+## [Live preview](https://easybank-landing-page93.netlify.app/)
 
 This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects. Made with React.js & Tailwind-CSS used Vite.js as module bundler.
 
